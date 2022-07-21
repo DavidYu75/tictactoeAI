@@ -24,7 +24,6 @@ def player(board):
     """
     Returns player who has the next turn on a board.
     """
-    # if board.user == X:
     x_turns = 0
     o_turns = 0
     empty_spaces = 0
@@ -167,10 +166,7 @@ def utility(board):
     else:
         return 0
 
-
-# What to fix:
-# 1. Find another way to check for diagonals without breaking the game.
-
+    
 def minimax(board):
     """
     Returns the optimal action for the current player on the board.
